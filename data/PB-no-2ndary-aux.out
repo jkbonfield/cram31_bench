@@ -1,0 +1,856 @@
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O BAM,normal
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.bam -@ 12 --output-fmt-option normal ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	8m3.402s
+user	42m42.324s
+sys	1m38.815s
+-rw-r--r-- 1 jkb team117 45157801387 Oct  4 10:25 no-2ndary-aux.bam.bam
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m11.964s
+user	8m7.163s
+sys	0m37.214s
+
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O BAM,small
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.bam -@ 12 --output-fmt-option small ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	17m35.758s
+user	172m15.782s
+sys	1m45.051s
+-rw-r--r-- 1 jkb team117 43195408084 Oct  5 12:19 no-2ndary-aux.bam.bam
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m8.715s
+user	7m59.918s
+sys	0m36.227s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O BAM,archive
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.bam -@ 12 --output-fmt-option archive ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	22m37.281s
+user	243m18.490s
+sys	1m47.628s
+-rw-r--r-- 1 jkb team117 42955761594 Oct  4 10:49 no-2ndary-aux.bam.bam
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m2.950s
+user	8m2.445s
+sys	0m37.706s
+
+
+
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,2.1,normal
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=2.1 --output-fmt-option normal ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	5m44.197s
+user	40m37.818s
+sys	2m27.033s
+Block CORE              , total size    22670407
+Block content_id      11, total size   148327539 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 23631294380 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   393455327 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  3471642667 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     3532226 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     8587765 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     5730286 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    24909508 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    18414609 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   737989502 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1779496895 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size   128254479 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   370783894 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    50976079 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         505 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 30798998010 Oct  7 09:36 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	2m29.362s
+user	9m54.098s
+sys	0m57.629s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,2.1,small
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=2.1 --output-fmt-option small ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	11m27.989s
+user	131m7.423s
+sys	2m43.461s
+Block CORE              , total size    21316855
+Block content_id      11, total size   114994746  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 21921947287  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   352103859  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  3262260546  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2990293 [7m[4mg[0mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     8459786 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     5461380 [7m[4mg[0mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    24549297 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    18164418 [7m[4mg[0mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   687764634  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1776291184 [7m[4mg[0mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size   107723126  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   344292448  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    47051958  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         425 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 28696570578 Oct  7 09:52 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	5m31.870s
+user	64m42.228s
+sys	1m16.865s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,2.1,archive
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=2.1 --output-fmt-option archive ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	16m42.995s
+user	194m24.523s
+sys	4m3.271s
+Block CORE              , total size    21835486
+Block content_id      11, total size   109075222  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 21918358482  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   355398585 [7m[4mg[0m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  3224247259 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2595085 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     8232929 [7m[4mg[0mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4796605 [7m[4mg[0mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    24386733 [7m[4mg[0m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    16826803  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   662491710 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1715137129 [7m[4mg[0mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size   107014033  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   347458702 [7m[4mg[0mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    46597266 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         662 [7m[4mg[0m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 28564789419 Oct  7 10:16 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	4m47.731s
+user	53m10.593s
+sys	2m26.033s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,2.1,archive9
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=2.1 --output-fmt-option level=9 --output-fmt-option archive ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	66m21.808s
+user	639m0.839s
+sys	11m48.088s
+Block CORE              , total size    22002942
+Block content_id      11, total size   108804742  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 21912547610  [0m[7m[4mb[0ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   342315108  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  3082832584  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2558064 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     7670927  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4738275 [7m[4mg[0mb[0m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    23150773  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    16784461  [0mb[0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   636542308  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1595999694 [7m[4mg[0m [0ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    97805965 g[0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   335013108  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    45607244 [4mg[0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         769  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 28234710246 Oct  7 11:28 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	8m12.389s
+user	57m3.725s
+sys	2m39.377s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,3.0,normal
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=3.0 --output-fmt-option normal ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	2m52.234s
+user	23m34.430s
+sys	2m24.214s
+Block CORE              , total size    22589424
+Block content_id      11, total size   148329312 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20522589437  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   357924027  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  2940075329  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2415694  [0m [0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     8626052 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4635168 g[0m [0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    24909860 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    18414897 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   584197234  [0m [0m [0m[7m[4mr[0mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1584521274  [0m [0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    84967202  [0m [0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   312032124  [0m [0m [0m[7m[4mr[0mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41553492  [0m [0m [0m[7m[4mr[0mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         431 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26661310803 Oct  4 10:53 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m14.789s
+user	9m46.592s
+sys	0m28.383s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,3.0,small
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=3.0 --output-fmt-option small ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	2m56.039s
+user	28m17.459s
+sys	2m4.114s
+Block CORE              , total size    21277006
+Block content_id      11, total size   114999375  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20518477572  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   357406176  [0mb[0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  2940618417  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2263843  [0m [0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     8524448 [7m[4mg[0m [0m [0m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4269804 g[0m [0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    24549591 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    18201590 g[0mb[0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   583267482  [0m [0m [0m[7m[4mr[0m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1584974403  [0m [0m [0m[7m[4mr[0mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    85050172  [0m [0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   311859069  [0m [0m [0m[7m[4mr[0mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41402104  [0m [0m [0m[7m[4mr[0mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         342 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26618566639 Oct  4 10:58 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m20.901s
+user	10m25.120s
+sys	1m11.810s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,3.0,archive
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=3.0 --output-fmt-option archive ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	5m44.325s
+user	56m39.100s
+sys	3m24.535s
+Block CORE              , total size    21870012
+Block content_id      11, total size   109078759  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20520428907  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   356888497  [0mb[0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  2941673830  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2188387  [0m [0m [0m[7m[4mr[0mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     8084254  [0mb[0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4114572 g[0m [0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    24418966  [0mb[0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    17278832  [0m[4mb[0m [0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   578428815  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1565758198  [0m [0m [0mr[0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    85477439  [0m [0m [0m[7m[4mr[0m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   311533790  [0m [0m [0m[7m[4mr[0m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41303173  [0m [0m [0m[7m[4mr[0m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         489  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26588901633 Oct  4 11:06 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m44.176s
+user	10m58.953s
+sys	2m12.655s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,3.0,archive9
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=3.0 --output-fmt-option level=9 --output-fmt-option archive ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	24m35.482s
+user	265m40.937s
+sys	9m43.974s
+Block CORE              , total size    21755446
+Block content_id      11, total size   108807278  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20520428572  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   342323768  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  2941656624  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2188292  [0m [0m [0m[7m[4mr[0mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     7769643  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4115022  [0m [0ml[0m[7m[4mr[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    23151313  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    16786507  [0mb[0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   578428820  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1565758241  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    85167386  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   310393792  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41162145  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         540  [0m [0m [0m [0m[7m[4mR[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26570268123 Oct  4 11:33 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m43.479s
+user	11m28.443s
+sys	2m21.079s
+
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,3.1,normal
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=3.1 --output-fmt-option normal ===
+[W::cram_set_voption] CRAM version 3.1 is still a draft and subject to change.
+This is a technology demonstration that should not be used for archival data.
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	2m44.034s
+user	25m56.859s
+sys	2m9.523s
+Block CORE              , total size    22551586
+Block content_id      11, total size    97996877  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mn[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20543958525  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   310207162  [0m [0m [0m [0m [0m [0m [0m [0m [0m8[0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  2934173008  [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m8[0m[7m[4m9[0m [0m3[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2345483  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     8640974 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4572201 g[0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    24909866 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    18414623 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   581715052  [0m [0m [0m [0m [0m [0m1[0m [0m [0m[7m[4m8[0m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1584139051  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    84876696  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   311928190  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41490253  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         154  [0m [0m [0m [0m [0m [0m [0m[7m[4m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26575440966 Oct  4 11:38 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m16.087s
+user	9m17.654s
+sys	0m30.536s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,3.1,small
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=3.1 --output-fmt-option small ===
+[W::cram_set_voption] CRAM version 3.1 is still a draft and subject to change.
+This is a technology demonstration that should not be used for archival data.
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	3m6.654s
+user	31m20.065s
+sys	1m54.663s
+Block CORE              , total size    21287997
+Block content_id      11, total size    84890648  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mn[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20551565533  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0mf[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   306945624  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  2928063761  [0m [0m [0m [0m [0m [0m [0m [0m [0m8[0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2238227  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size     8550920 g[0m [0m [0m [0m [0m[7m[4m0[0m [0m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4249659  [0m [0m [0m [0m [0m[7m[4m0[0m [0m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    24549573 [7m[4mg[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    18176204 g[0mb[0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   580998294  [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m8[0m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1584221674  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    84988433  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m5[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   311595749  [0m [0m [0m [0m [0m [0m1[0m [0m [0m[7m[4m8[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41371361  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         112  [0m [0m [0m [0m [0m [0m [0m[7m[4m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26555118552 Oct  4 11:43 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m18.887s
+user	9m15.966s
+sys	0m36.502s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,3.1,archive
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=3.1 --output-fmt-option archive ===
+[W::cram_set_voption] CRAM version 3.1 is still a draft and subject to change.
+This is a technology demonstration that should not be used for archival data.
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	10m3.129s
+user	106m48.067s
+sys	4m32.781s
+Block CORE              , total size    21836009
+Block content_id      11, total size    77386351  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mn[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20558929717  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0mf[0m [0m [0m [0m [0m [0m1[0m [0m[4m5[0m [0m [0m [0m [0m QS
+Block content_id      13, total size   305159816  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m3[0m IN
+Block content_id      14, total size  2924214764  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m3[0m SC
+Block content_id      15, total size     2181974  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m8[0m [0m [0m [0m BF
+Block content_id      17, total size     8094687  [0m [0m [0m [0m [0m[7m[4m0[0m [0m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m0[0m [0m4[0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4106783  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m0[0m [0m4[0m5[0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    24412414  [0mb[0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    17274141  [0m[4mb[0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   574898711  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m3[0m FC
+Block content_id      28, total size  1557453074  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m3[0m FP
+Block content_id      29, total size    84157675  [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m5[0m [0m [0m [0m3[0m [0m [0m [0m [0m [0m0[0m [0m [0m5[0m [0m [0m [0m [0m DL
+Block content_id      30, total size   310964339  [0m [0m [0m [0m [0m [0m1[0m [0m [0m[7m[4m8[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41226765  [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m8[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m1[0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         161  [0m [0m [0m [0m [0m [0m [0m[7m[4m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m1[0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26512672102 Oct  4 11:55 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m59.791s
+user	14m58.328s
+sys	2m18.142s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,3.1,archive9
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=3.1 --output-fmt-option level=9 --output-fmt-option archive ===
+[W::cram_set_voption] CRAM version 3.1 is still a draft and subject to change.
+This is a technology demonstration that should not be used for archival data.
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	29m13.121s
+user	314m14.729s
+sys	10m47.560s
+Block CORE              , total size    21755386
+Block content_id      11, total size    77399354  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mn[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20315500006  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mf[0m [0m [0m [0m [0m [0m1[0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   303276820  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m3[0m IN
+Block content_id      14, total size  2913276123  [0m [0ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m3[0m SC
+Block content_id      15, total size     2172572  [0m [0m [0m [0m [0m [0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m0[0m [0m [0m [0m[7m[4m8[0m [0m [0m [0m BF
+Block content_id      17, total size     7770370  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4063680  [0m [0ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    23151248  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    16784962 g[0mb[0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   574702476  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m3[0m FC
+Block content_id      28, total size  1556909773  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m1[0m [0m5[0m [0m [0m [0m[7m[4m3[0m FP
+Block content_id      29, total size    83776649  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m5[0m [0m [0m [0m3[0m DL
+Block content_id      30, total size   310323215  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41123443  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         176  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26252360986 Oct  4 12:27 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	4m38.835s
+user	50m46.116s
+sys	2m34.769s
+
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,4.0,normal
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=4.0 --output-fmt-option normal ===
+[W::cram_set_voption] CRAM version 4.0 is still a draft and subject to change.
+This is a technology demonstration that should not be used for archival data.
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	3m8.927s
+user	26m18.918s
+sys	2m9.950s
+Block CORE              , total size           0
+Block content_id      11, total size    97990894  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mn[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20463465761  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   310206349  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  2934262165  [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m8[0m[7m[4m9[0m [0m3[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2345473  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size    26731678 [7m[4mg[0m [0m [0m [0m [0m [0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4573310 g[0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    26025736 [7m[4mg[0m [0m [0m [0m [0m [0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    17486812 g[0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   581717129  [0m [0m [0m [0m [0m [0m1[0m [0m [0m[7m[4m8[0m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1572707200  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    84870271  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   311928421  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41490132  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         221  [0m [0m [0m [0m [0m [0m [0m[7m[4m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26479249152 Oct  4 12:36 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m16.628s
+user	9m34.738s
+sys	0m31.358s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,4.0,small
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=4.0 --output-fmt-option small ===
+[W::cram_set_voption] CRAM version 4.0 is still a draft and subject to change.
+This is a technology demonstration that should not be used for archival data.
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	3m5.773s
+user	31m45.995s
+sys	1m49.489s
+Block CORE              , total size           0
+Block content_id      11, total size    84892620  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mn[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20471349005  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0mf[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   306946951  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m IN
+Block content_id      14, total size  2927575756  [0m [0m [0m [0m [0m [0m [0m [0m [0m8[0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m SC
+Block content_id      15, total size     2238170  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BF
+Block content_id      17, total size    23237238 g[0m[4mb[0m [0m [0m [0m0[0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4243933  [0m [0m [0m [0m [0m[7m[4m0[0m [0m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    25505512 [7m[4mg[0mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    16786781  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   581003857  [0m [0m [0m [0m [0m [0m1[0m [0m [0m[7m[4m8[0m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FC
+Block content_id      28, total size  1573834784  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    84973790  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   311593645  [0m [0m [0m [0m [0m [0m1[0m [0m [0m[7m[4m8[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41371489  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size          98  [0m [0m [0m [0m [0m [0m [0m[7m[4m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26456950989 Oct  4 12:41 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m19.283s
+user	9m32.812s
+sys	0m37.198s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,4.0,archive
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=4.0 --output-fmt-option archive ===
+[W::cram_set_voption] CRAM version 4.0 is still a draft and subject to change.
+This is a technology demonstration that should not be used for archival data.
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	10m20.567s
+user	105m15.590s
+sys	4m49.248s
+Block CORE              , total size           0
+Block content_id      11, total size    77407140  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mn[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20479856855  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0mf[0m [0m [0m [0m [0m [0m1[0m [0m[4m5[0m [0m [0m [0m [0m QS
+Block content_id      13, total size   305195946  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m3[0m IN
+Block content_id      14, total size  2924213397  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m3[0m SC
+Block content_id      15, total size     2182090  [0m [0m [0m [0m [0m[7m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m0[0m [0m [0m [0m8[0m [0m [0m [0m BF
+Block content_id      17, total size    22229591 [7m[4mg[0m [0m [0m [0m [0m [0m[4m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m1[0m4[0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4105256  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m0[0m1[0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    23125749  [0m[7m[4mb[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    16424047  [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m0[0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   574892749  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m9[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m3[0m FC
+Block content_id      28, total size  1556825721  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m0[0m[4m1[0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    85147341  [0m [0m [0m [0m [0m[4m0[0m[4m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m0[0m[4m1[0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   310988898  [0m [0m [0m [0m [0m [0m1[0m [0m [0m[7m[4m8[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41227061  [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m8[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m1[0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         134  [0m [0m [0m [0m [0m [0m [0m[7m[4m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[4m1[0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26424189720 Oct  4 12:53 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	1m57.230s
+user	15m2.562s
+sys	2m13.577s
+
+### Samtools: no-2ndary-aux.bam -@ 12 -O CRAM,4.0,archive9
+=== Executing ../NA12878/samtools view no-2ndary-aux.bam -o no-2ndary-aux.bam.cram -@ 12 --output-fmt-option version=4.0 --output-fmt-option level=9 --output-fmt-option archive ===
+[W::cram_set_voption] CRAM version 4.0 is still a draft and subject to change.
+This is a technology demonstration that should not be used for archival data.
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	29m56.574s
+user	328m40.654s
+sys	11m51.343s
+Block CORE              , total size           0
+Block content_id      11, total size    77401531  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mn[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RN
+Block content_id      12, total size 20313800243  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4mf[0m [0m [0m [0m [0m [0m1[0m [0m [0m [0m [0m [0m [0m QS
+Block content_id      13, total size   303276874  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m3[0m IN
+Block content_id      14, total size  2913287397  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m3[0m SC
+Block content_id      15, total size     2172582  [0m [0m [0m [0m [0m [0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m0[0m [0m [0m [0m[7m[4m8[0m [0m [0m [0m BF
+Block content_id      17, total size    16926437  [0m [0m[7m[4ml[0m [0m [0m [0m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m AP
+Block content_id      19, total size     4063046  [0m [0ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m0[0m [0m [0m [0m [0m [0m [0m [0m MQ
+Block content_id      25, total size    22422738  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m RL
+Block content_id      26, total size    15838823  [0m [0m[7m[4ml[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m FN
+Block content_id      27, total size   574702991  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m3[0m FC
+Block content_id      28, total size  1556249135  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m FP
+Block content_id      29, total size    84035116  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m DL
+Block content_id      30, total size   310323300  [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m BA
+Block content_id      31, total size    41123436  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m BS
+Block content_id      33, total size         168  [0m [0m [0m [0m [0m [0m [0m[4m4[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m[7m[4m1[0m [0m [0m [0m [0m [0m [0m RI
+-rw-r--r-- 1 jkb team117 26235991537 Oct  4 13:26 no-2ndary-aux.bam.cram
+=== Executing ../NA12878/samtools view -f 0xffff no-2ndary-aux.bam.cram -@ 12 ===
+[W::sam_hdr_link_pg] PG line with PN:tag_strip has a PP link to missing program 'calmd'
+
+real	4m31.902s
+user	49m59.944s
+sys	2m35.397s
+
+
+### Deez: no-2ndary-aux.bam -r hs37d5.fa -t 12 -normal
+=== Executing deez -v1 -! no-2ndary-aux.bam -o no-2ndary-aux.bam.dz -r hs37d5.fa -t 12 ===
+DeeZ 0x20 (v1.9-beta2-26-g92cd56b)
+File no-2ndary-aux.bam.dz already exists. Overwriting it.
+Loaded reference file hs37d5.fa
+Loaded reference index hs37d5.fa.fai
+Using quality mode default
+	  0.5% [Chr 1          Block      1]	  1.0% [Chr 1          Block      2]	  1.6% [Chr 1          Block      3]	  2.1% [Chr 1          Block      4]	  2.6% [Chr 1          Block      5]	  3.1% [Chr 1          Block      6]	  3.6% [Chr 1          Block      7]	  4.1% [Chr 1          Block      8]	  4.6% [Chr 1          Block      9]	  5.1% [Chr 1          Block     10]	  5.7% [Chr 1          Block     11]	  6.2% [Chr 1          Block     12]	  6.7% [Chr 1          Block     13]	  7.2% [Chr 1          Block     14]	  7.7% [Chr 1          Block     15]	  7.9% [Chr 1          Block     16]	  8.4% [Chr 2          Block     17]	  8.9% [Chr 2          Block     18]	  9.4% [Chr 2          Block     19]	 10.0% [Chr 2          Block     20]	 10.5% [Chr 2          Block     21]	 11.0% [Chr 2          Block     22]	 11.5% [Chr 2          Block     23]	 12.0% [Chr 2          Block     24]	 12.5% [Chr 2          Block     25]	 13.0% [Chr 2          Block     26]	 13.5% [Chr 2          Block     27]	 14.1% [Chr 2          Block     28]	 14.6% [Chr 2          Block     29]	 15.1% [Chr 2          Block     30]	 15.6% [Chr 2          Block     31]	 16.1% [Chr 2          Block     32]	 16.5% [Chr 2          Block     33]	 17.0% [Chr 3          Block     34]	 17.5% [Chr 3          Block     35]	 18.0% [Chr 3          Block     36]	 18.6% [Chr 3          Block     37]	 19.1% [Chr 3          Block     38]	 19.6% [Chr 3          Block     39]	 20.1% [Chr 3          Block     40]	 20.6% [Chr 3          Block     41]	 21.1% [Chr 3          Block     42]	 21.6% [Chr 3          Block     43]	 22.1% [Chr 3          Block     44]	 22.6% [Chr 3          Block     45]	 23.2% [Chr 3          Block     46]	 23.5% [Chr 3          Block     47]	 24.0% [Chr 4          Block     48]	 24.6% [Chr 4          Block     49]	 25.1% [Chr 4          Block     50]	 25.6% [Chr 4          Block     51]	 26.1% [Chr 4          Block     52]	 26.6% [Chr 4          Block     53]	 27.1% [Chr 4          Block     54]	 27.6% [Chr 4          Block     55]	 28.1% [Chr 4          Block     56]	 28.6% [Chr 4          Block     57]	 29.2% [Chr 4          Block     58]	 29.7% [Chr 4          Block     59]	 30.2% [Chr 4          Block     60]	 30.4% [Chr 4          Block     61]	 30.9% [Chr 5          Block     62]	 31.4% [Chr 5          Block     63]	 31.9% [Chr 5          Block     64]	 32.4% [Chr 5          Block     65]	 32.9% [Chr 5          Block     66]	 33.4% [Chr 5          Block     67]	 33.9% [Chr 5          Block     68]	 34.5% [Chr 5          Block     69]	 35.0% [Chr 5          Block     70]	 35.5% [Chr 5          Block     71]	 36.0% [Chr 5          Block     72]	 36.5% [Chr 5          Block     73]	 36.8% [Chr 5          Block     74]	 37.3% [Chr 6          Block     75]	 37.8% [Chr 6          Block     76]	 38.3% [Chr 6          Block     77]	 38.8% [Chr 6          Block     78]	 39.3% [Chr 6          Block     79]	 39.9% [Chr 6          Block     80]	 40.4% [Chr 6          Block     81]	 40.9% [Chr 6          Block     82]	 41.4% [Chr 6          Block     83]	 41.9% [Chr 6          Block     84]	 42.4% [Chr 6          Block     85]	 42.9% [Chr 6          Block     86]	 43.4% [Chr 7          Block     87]	 43.9% [Chr 7          Block     88]	 44.4% [Chr 7          Block     89]	 44.9% [Chr 7          Block     90]	 45.4% [Chr 7          Block     91]	 45.9% [Chr 7          Block     92]	 46.5% [Chr 7          Block     93]	 47.0% [Chr 7          Block     94]	 47.5% [Chr 7          Block     95]	 48.0% [Chr 7          Block     96]	 48.3% [Chr 7          Block     97]	 48.9% [Chr 8          Block     98]	 49.4% [Chr 8          Block     99]	 49.9% [Chr 8          Block    100]	 50.4% [Chr 8          Block    101]	 50.9% [Chr 8          Block    102]	 51.4% [Chr 8          Block    103]	 51.9% [Chr 8          Block    104]	 52.4% [Chr 8          Block    105]	 52.9% [Chr 8          Block    106]	 53.5% [Chr 8          Block    107]	 53.5% [Chr 8          Block    108]	 54.0% [Chr 9          Block    109]	 54.5% [Chr 9          Block    110]	 55.0% [Chr 9          Block    111]	 55.5% [Chr 9          Block    112]	 56.0% [Chr 9          Block    113]	 56.5% [Chr 9          Block    114]	 57.0% [Chr 9          Block    115]	 57.6% [Chr 9          Block    116]	 57.7% [Chr 9          Block    117]	 58.2% [Chr 10         Block    118]	 58.7% [Chr 10         Block    119]	 59.2% [Chr 10         Block    120]	 59.7% [Chr 10         Block    121]	 60.3% [Chr 10         Block    122]	 60.8% [Chr 10         Block    123]	 61.3% [Chr 10         Block    124]	 61.8% [Chr 10         Block    125]	 62.2% [Chr 10         Block    126]	 62.7% [Chr 11         Block    127]	 63.2% [Chr 11         Block    128]	 63.8% [Chr 11         Block    129]	 64.3% [Chr 11         Block    130]	 64.8% [Chr 11         Block    131]	 65.3% [Chr 11         Block    132]	 65.8% [Chr 11         Block    133]	 66.3% [Chr 11         Block    134]	 66.8% [Chr 11         Block    135]	 67.3% [Chr 12         Block    136]	 67.8% [Chr 12         Block    137]	 68.3% [Chr 12         Block    138]	 68.8% [Chr 12         Block    139]	 69.3% [Chr 12         Block    140]	 69.8% [Chr 12         Block    141]	 70.3% [Chr 12         Block    142]	 70.9% [Chr 12         Block    143]	 71.4% [Chr 12         Block    144]	 71.9% [Chr 13         Block    145]	 72.4% [Chr 13         Block    146]	 72.9% [Chr 13         Block    147]	 73.4% [Chr 13         Block    148]	 73.9% [Chr 13         Block    149]	 74.4% [Chr 13         Block    150]	 74.8% [Chr 13         Block    151]	 75.3% [Chr 14         Block    152]	 75.8% [Chr 14         Block    153]	 76.3% [Chr 14         Block    154]	 76.9% [Chr 14         Block    155]	 77.4% [Chr 14         Block    156]	 77.9% [Chr 14         Block    157]	 77.9% [Chr 14         Block    158]	 78.4% [Chr 15         Block    159]	 78.9% [Chr 15         Block    160]	 79.4% [Chr 15         Block    161]	 80.0% [Chr 15         Block    162]	 80.5% [Chr 15         Block    163]	 80.7% [Chr 15         Block    164]	 81.2% [Chr 16         Block    165]	 81.7% [Chr 16         Block    166]	 82.2% [Chr 16         Block    167]	 82.8% [Chr 16         Block    168]	 83.3% [Chr 16         Block    169]	 83.5% [Chr 16         Block    170]	 84.0% [Chr 17         Block    171]	 84.6% [Chr 17         Block    172]	 85.1% [Chr 17         Block    173]	 85.6% [Chr 17         Block    174]	 86.1% [Chr 17         Block    175]	 86.6% [Chr 18         Block    176]	 87.1% [Chr 18         Block    177]	 87.6% [Chr 18         Block    178]	 88.1% [Chr 18         Block    179]	 88.6% [Chr 18         Block    180]	 88.7% [Chr 18         Block    181]	 89.2% [Chr 19         Block    182]	 89.8% [Chr 19         Block    183]	 90.3% [Chr 19         Block    184]	 90.4% [Chr 19         Block    185]	 90.9% [Chr 20         Block    186]	 91.4% [Chr 20         Block    187]	 91.9% [Chr 20         Block    188]	 92.4% [Chr 20         Block    189]	 92.9% [Chr 21         Block    190]	 93.4% [Chr 21         Block    191]	 93.6% [Chr 21         Block    192]	 94.2% [Chr 22         Block    193]	 94.7% [Chr 22         Block    194]	 94.7% [Chr 22         Block    195]	 95.2% [Chr X          Block    196]	 95.7% [Chr X          Block    197]	 96.2% [Chr X          Block    198]	 96.8% [Chr X          Block    199]	 97.3% [Chr X          Block    200]	 97.8% [Chr X          Block    201]	 98.3% [Chr X          Block    202]	 98.8% [Chr X          Block    203]	 99.3% [Chr X          Block    204]	 99.8% [Chr X          Block    205]	 99.9% [Chr X          Block    206]	100.0% [Chr Y          Block    207]	100.0% [Chr MT         Block    208]
+Written 13682101 lines
+Paired 0 out of 13682101 reads
+Reference                 17085548
+  Fixes     :             10942430
+  Fixes St  :              4089491
+  Replace   :              2053627
+Sequences               6439613990
+  Positions :             10183596 
+  Stitches  :             12858653 
+  Opcode    :            571992690 
+  SeqPos    :           1763377890 
+  SeqLen    :             28203170 
+  XLen      :              4749897 
+  HSLen     :             19800180 
+  AnyLen    :            454732252 
+  OPLen     :             17270572 
+  ACGTMiss  :             55758253 
+  ACGTIns   :           3500683093 
+  ACGTUnmap :                 3744 
+Read Names               123673469
+  Index     :             10945317
+  Content   :            112728152
+  Paired    :                    0
+Flags                      3374686
+Map. Quals                 4637206
+Qualities              20474610664
+Paired End                37259743
+  Diff      :             34712739 
+  Chr       :                18491 
+  Template  :                31441 
+  Bits      :              2497072 
+Optionals                   145159
+  Tags      :                69486
+  MDZ       :                17952
+  NMi       :                    0
+  RG^       :                57721
+
+real	48m36.839s
+user	61m13.126s
+sys	4m11.989s
+-rw-r--r-- 1 jkb team117 27101199739 Oct  5 13:09 no-2ndary-aux.bam.dz
+=== Executing deez -v1 -! -c no-2ndary-aux.bam.dz -r hs37d5.fa -t 12 > /dev/null ===
+DeeZ 0x20 (v1.9-beta2-26-g92cd56b)
+Decompressing no-2ndary-aux.bam.dz to stdout ...
+File format: DZ v2.0
+Loaded reference file hs37d5.fa
+Loaded reference index hs37d5.fa.fai
+Using quality mode default
+	 0.52% [Chr 1         ]	 1.03% [Chr 1         ]	 1.54% [Chr 1         ]	 2.06% [Chr 1         ]	 2.57% [Chr 1         ]	 3.08% [Chr 1         ]	 3.59% [Chr 1         ]	 4.10% [Chr 1         ]	 4.61% [Chr 1         ]	 5.13% [Chr 1         ]	 5.64% [Chr 1         ]	 6.15% [Chr 1         ]	 6.66% [Chr 1         ]	 7.17% [Chr 1         ]	 7.69% [Chr 1         ]	 7.91% [Chr 1         ]	 8.42% [Chr 2         ]	 8.93% [Chr 2         ]	 9.45% [Chr 2         ]	 9.96% [Chr 2         ]	10.47% [Chr 2         ]	10.98% [Chr 2         ]	11.50% [Chr 2         ]	12.01% [Chr 2         ]	12.52% [Chr 2         ]	13.03% [Chr 2         ]	13.54% [Chr 2         ]	14.06% [Chr 2         ]	14.57% [Chr 2         ]	15.08% [Chr 2         ]	15.59% [Chr 2         ]	16.10% [Chr 2         ]	16.50% [Chr 2         ]	17.02% [Chr 3         ]	17.53% [Chr 3         ]	18.04% [Chr 3         ]	18.55% [Chr 3         ]	19.07% [Chr 3         ]	19.58% [Chr 3         ]	20.09% [Chr 3         ]	20.60% [Chr 3         ]	21.11% [Chr 3         ]	21.62% [Chr 3         ]	22.14% [Chr 3         ]	22.65% [Chr 3         ]	23.16% [Chr 3         ]	23.53% [Chr 3         ]	24.04% [Chr 4         ]	24.56% [Chr 4         ]	25.07% [Chr 4         ]	25.58% [Chr 4         ]	26.09% [Chr 4         ]	26.60% [Chr 4         ]	27.11% [Chr 4         ]	27.63% [Chr 4         ]	28.14% [Chr 4         ]	28.65% [Chr 4         ]	29.16% [Chr 4         ]	29.67% [Chr 4         ]	30.18% [Chr 4         ]	30.37% [Chr 4         ]	30.89% [Chr 5         ]	31.40% [Chr 5         ]	31.91% [Chr 5         ]	32.42% [Chr 5         ]	32.93% [Chr 5         ]	33.45% [Chr 5         ]	33.96% [Chr 5         ]	34.47% [Chr 5         ]	34.98% [Chr 5         ]	35.49% [Chr 5         ]	36.00% [Chr 5         ]	36.52% [Chr 5         ]	36.79% [Chr 5         ]	37.30% [Chr 6         ]	37.82% [Chr 6         ]	38.33% [Chr 6         ]	38.84% [Chr 6         ]	39.35% [Chr 6         ]	39.87% [Chr 6         ]	40.38% [Chr 6         ]	40.89% [Chr 6         ]	41.40% [Chr 6         ]	41.91% [Chr 6         ]	42.42% [Chr 6         ]	42.88% [Chr 6         ]	43.39% [Chr 7         ]	43.91% [Chr 7         ]	44.42% [Chr 7         ]	44.93% [Chr 7         ]	45.44% [Chr 7         ]	45.96% [Chr 7         ]	46.47% [Chr 7         ]	46.98% [Chr 7         ]	47.49% [Chr 7         ]	48.00% [Chr 7         ]	48.36% [Chr 7         ]	48.87% [Chr 8         ]	49.38% [Chr 8         ]	49.90% [Chr 8         ]	50.41% [Chr 8         ]	50.92% [Chr 8         ]	51.43% [Chr 8         ]	51.94% [Chr 8         ]	52.45% [Chr 8         ]	52.97% [Chr 8         ]	53.48% [Chr 8         ]	53.48% [Chr 8         ]	53.99% [Chr 9         ]	54.51% [Chr 9         ]	55.02% [Chr 9         ]	55.53% [Chr 9         ]	56.04% [Chr 9         ]	56.56% [Chr 9         ]	57.07% [Chr 9         ]	57.58% [Chr 9         ]	57.71% [Chr 9         ]	58.22% [Chr 10        ]	58.73% [Chr 10        ]	59.25% [Chr 10        ]	59.76% [Chr 10        ]	60.27% [Chr 10        ]	60.78% [Chr 10        ]	61.30% [Chr 10        ]	61.81% [Chr 10        ]	62.23% [Chr 10        ]	62.75% [Chr 11        ]	63.26% [Chr 11        ]	63.77% [Chr 11        ]	64.28% [Chr 11        ]	64.80% [Chr 11        ]	65.31% [Chr 11        ]	65.82% [Chr 11        ]	66.33% [Chr 11        ]	66.77% [Chr 11        ]	67.28% [Chr 12        ]	67.79% [Chr 12        ]	68.30% [Chr 12        ]	68.82% [Chr 12        ]	69.33% [Chr 12        ]	69.84% [Chr 12        ]	70.35% [Chr 12        ]	70.86% [Chr 12        ]	71.36% [Chr 12        ]	71.87% [Chr 13        ]	72.38% [Chr 13        ]	72.89% [Chr 13        ]	73.40% [Chr 13        ]	73.92% [Chr 13        ]	74.43% [Chr 13        ]	74.81% [Chr 13        ]	75.33% [Chr 14        ]	75.84% [Chr 14        ]	76.35% [Chr 14        ]	76.86% [Chr 14        ]	77.37% [Chr 14        ]	77.89% [Chr 14        ]	77.91% [Chr 14        ]	78.42% [Chr 15        ]	78.93% [Chr 15        ]	79.44% [Chr 15        ]	79.96% [Chr 15        ]	80.47% [Chr 15        ]	80.71% [Chr 15        ]	81.23% [Chr 16        ]	81.74% [Chr 16        ]	82.25% [Chr 16        ]	82.77% [Chr 16        ]	83.28% [Chr 16        ]	83.53% [Chr 16        ]	84.05% [Chr 17        ]	84.56% [Chr 17        ]	85.07% [Chr 17        ]	85.59% [Chr 17        ]	86.05% [Chr 17        ]	86.56% [Chr 18        ]	87.07% [Chr 18        ]	87.59% [Chr 18        ]	88.10% [Chr 18        ]	88.61% [Chr 18        ]	88.72% [Chr 18        ]	89.24% [Chr 19        ]	89.75% [Chr 19        ]	90.27% [Chr 19        ]	90.37% [Chr 19        ]	90.89% [Chr 20        ]	91.40% [Chr 20        ]	91.91% [Chr 20        ]	92.35% [Chr 20        ]	92.86% [Chr 21        ]	93.37% [Chr 21        ]	93.63% [Chr 21        ]	94.14% [Chr 22        ]	94.66% [Chr 22        ]	94.69% [Chr 22        ]	95.21% [Chr X         ]	95.72% [Chr X         ]	96.23% [Chr X         ]	96.74% [Chr X         ]	97.26% [Chr X         ]	97.77% [Chr X         ]	98.28% [Chr X         ]	98.79% [Chr X         ]	99.30% [Chr X         ]	99.82% [Chr X         ]	99.92% [Chr X         ]	99.96% [Chr Y         ]	100.00% [Chr MT        ]
+Decompressed 13682101 records, 208 blocks
+
+real	11m37.364s
+user	26m29.162s
+sys	2m37.183s
+
+### Deez: no-2ndary-aux.bam -r hs37d5.fa -t 12 -q1
+=== Executing deez -v1 -! no-2ndary-aux.bam -o no-2ndary-aux.bam.dz -r hs37d5.fa -t 12 -q1 ===
+DeeZ 0x20 (v1.9-beta2-26-g92cd56b)
+Loaded reference file hs37d5.fa
+Loaded reference index hs37d5.fa.fai
+Using quality mode samcomp
+	  0.5% [Chr 1          Block      1]	  1.0% [Chr 1          Block      2]	  1.6% [Chr 1          Block      3]	  2.1% [Chr 1          Block      4]	  2.6% [Chr 1          Block      5]	  3.1% [Chr 1          Block      6]	  3.6% [Chr 1          Block      7]	  4.1% [Chr 1          Block      8]	  4.6% [Chr 1          Block      9]	  5.1% [Chr 1          Block     10]	  5.7% [Chr 1          Block     11]	  6.2% [Chr 1          Block     12]	  6.7% [Chr 1          Block     13]	  7.2% [Chr 1          Block     14]	  7.7% [Chr 1          Block     15]	  7.9% [Chr 1          Block     16]	  8.4% [Chr 2          Block     17]	  8.9% [Chr 2          Block     18]	  9.4% [Chr 2          Block     19]	 10.0% [Chr 2          Block     20]	 10.5% [Chr 2          Block     21]	 11.0% [Chr 2          Block     22]	 11.5% [Chr 2          Block     23]	 12.0% [Chr 2          Block     24]	 12.5% [Chr 2          Block     25]	 13.0% [Chr 2          Block     26]	 13.5% [Chr 2          Block     27]	 14.1% [Chr 2          Block     28]	 14.6% [Chr 2          Block     29]	 15.1% [Chr 2          Block     30]	 15.6% [Chr 2          Block     31]	 16.1% [Chr 2          Block     32]	 16.5% [Chr 2          Block     33]	 17.0% [Chr 3          Block     34]	 17.5% [Chr 3          Block     35]	 18.0% [Chr 3          Block     36]	 18.6% [Chr 3          Block     37]	 19.1% [Chr 3          Block     38]	 19.6% [Chr 3          Block     39]	 20.1% [Chr 3          Block     40]	 20.6% [Chr 3          Block     41]	 21.1% [Chr 3          Block     42]	 21.6% [Chr 3          Block     43]	 22.1% [Chr 3          Block     44]	 22.6% [Chr 3          Block     45]	 23.2% [Chr 3          Block     46]	 23.5% [Chr 3          Block     47]	 24.0% [Chr 4          Block     48]	 24.6% [Chr 4          Block     49]	 25.1% [Chr 4          Block     50]	 25.6% [Chr 4          Block     51]	 26.1% [Chr 4          Block     52]	 26.6% [Chr 4          Block     53]	 27.1% [Chr 4          Block     54]	 27.6% [Chr 4          Block     55]	 28.1% [Chr 4          Block     56]	 28.6% [Chr 4          Block     57]	 29.2% [Chr 4          Block     58]	 29.7% [Chr 4          Block     59]	 30.2% [Chr 4          Block     60]	 30.4% [Chr 4          Block     61]	 30.9% [Chr 5          Block     62]	 31.4% [Chr 5          Block     63]	 31.9% [Chr 5          Block     64]	 32.4% [Chr 5          Block     65]	 32.9% [Chr 5          Block     66]	 33.4% [Chr 5          Block     67]	 33.9% [Chr 5          Block     68]	 34.5% [Chr 5          Block     69]	 35.0% [Chr 5          Block     70]	 35.5% [Chr 5          Block     71]	 36.0% [Chr 5          Block     72]	 36.5% [Chr 5          Block     73]	 36.8% [Chr 5          Block     74]	 37.3% [Chr 6          Block     75]	 37.8% [Chr 6          Block     76]	 38.3% [Chr 6          Block     77]	 38.8% [Chr 6          Block     78]	 39.3% [Chr 6          Block     79]	 39.9% [Chr 6          Block     80]	 40.4% [Chr 6          Block     81]	 40.9% [Chr 6          Block     82]	 41.4% [Chr 6          Block     83]	 41.9% [Chr 6          Block     84]	 42.4% [Chr 6          Block     85]	 42.9% [Chr 6          Block     86]	 43.4% [Chr 7          Block     87]	 43.9% [Chr 7          Block     88]	 44.4% [Chr 7          Block     89]	 44.9% [Chr 7          Block     90]	 45.4% [Chr 7          Block     91]	 45.9% [Chr 7          Block     92]	 46.5% [Chr 7          Block     93]	 47.0% [Chr 7          Block     94]	 47.5% [Chr 7          Block     95]	 48.0% [Chr 7          Block     96]	 48.3% [Chr 7          Block     97]	 48.9% [Chr 8          Block     98]	 49.4% [Chr 8          Block     99]	 49.9% [Chr 8          Block    100]	 50.4% [Chr 8          Block    101]	 50.9% [Chr 8          Block    102]	 51.4% [Chr 8          Block    103]	 51.9% [Chr 8          Block    104]	 52.4% [Chr 8          Block    105]	 52.9% [Chr 8          Block    106]	 53.5% [Chr 8          Block    107]	 53.5% [Chr 8          Block    108]	 54.0% [Chr 9          Block    109]	 54.5% [Chr 9          Block    110]	 55.0% [Chr 9          Block    111]	 55.5% [Chr 9          Block    112]	 56.0% [Chr 9          Block    113]	 56.5% [Chr 9          Block    114]	 57.0% [Chr 9          Block    115]	 57.6% [Chr 9          Block    116]	 57.7% [Chr 9          Block    117]	 58.2% [Chr 10         Block    118]	 58.7% [Chr 10         Block    119]	 59.2% [Chr 10         Block    120]	 59.7% [Chr 10         Block    121]	 60.3% [Chr 10         Block    122]	 60.8% [Chr 10         Block    123]	 61.3% [Chr 10         Block    124]	 61.8% [Chr 10         Block    125]	 62.2% [Chr 10         Block    126]	 62.7% [Chr 11         Block    127]	 63.2% [Chr 11         Block    128]	 63.8% [Chr 11         Block    129]	 64.3% [Chr 11         Block    130]	 64.8% [Chr 11         Block    131]	 65.3% [Chr 11         Block    132]	 65.8% [Chr 11         Block    133]	 66.3% [Chr 11         Block    134]	 66.8% [Chr 11         Block    135]	 67.3% [Chr 12         Block    136]	 67.8% [Chr 12         Block    137]	 68.3% [Chr 12         Block    138]	 68.8% [Chr 12         Block    139]	 69.3% [Chr 12         Block    140]	 69.8% [Chr 12         Block    141]	 70.3% [Chr 12         Block    142]	 70.9% [Chr 12         Block    143]	 71.4% [Chr 12         Block    144]	 71.9% [Chr 13         Block    145]	 72.4% [Chr 13         Block    146]	 72.9% [Chr 13         Block    147]	 73.4% [Chr 13         Block    148]	 73.9% [Chr 13         Block    149]	 74.4% [Chr 13         Block    150]	 74.8% [Chr 13         Block    151]	 75.3% [Chr 14         Block    152]	 75.8% [Chr 14         Block    153]	 76.3% [Chr 14         Block    154]	 76.9% [Chr 14         Block    155]	 77.4% [Chr 14         Block    156]	 77.9% [Chr 14         Block    157]	 77.9% [Chr 14         Block    158]	 78.4% [Chr 15         Block    159]	 78.9% [Chr 15         Block    160]	 79.4% [Chr 15         Block    161]	 80.0% [Chr 15         Block    162]	 80.5% [Chr 15         Block    163]	 80.7% [Chr 15         Block    164]	 81.2% [Chr 16         Block    165]	 81.7% [Chr 16         Block    166]	 82.2% [Chr 16         Block    167]	 82.8% [Chr 16         Block    168]	 83.3% [Chr 16         Block    169]	 83.5% [Chr 16         Block    170]	 84.0% [Chr 17         Block    171]	 84.6% [Chr 17         Block    172]	 85.1% [Chr 17         Block    173]	 85.6% [Chr 17         Block    174]	 86.1% [Chr 17         Block    175]	 86.6% [Chr 18         Block    176]	 87.1% [Chr 18         Block    177]	 87.6% [Chr 18         Block    178]	 88.1% [Chr 18         Block    179]	 88.6% [Chr 18         Block    180]	 88.7% [Chr 18         Block    181]	 89.2% [Chr 19         Block    182]	 89.8% [Chr 19         Block    183]	 90.3% [Chr 19         Block    184]	 90.4% [Chr 19         Block    185]	 90.9% [Chr 20         Block    186]	 91.4% [Chr 20         Block    187]	 91.9% [Chr 20         Block    188]	 92.4% [Chr 20         Block    189]	 92.9% [Chr 21         Block    190]	 93.4% [Chr 21         Block    191]	 93.6% [Chr 21         Block    192]	 94.2% [Chr 22         Block    193]	 94.7% [Chr 22         Block    194]	 94.7% [Chr 22         Block    195]	 95.2% [Chr X          Block    196]	 95.7% [Chr X          Block    197]	 96.2% [Chr X          Block    198]	 96.8% [Chr X          Block    199]	 97.3% [Chr X          Block    200]	 97.8% [Chr X          Block    201]	 98.3% [Chr X          Block    202]	 98.8% [Chr X          Block    203]	 99.3% [Chr X          Block    204]	 99.8% [Chr X          Block    205]	 99.9% [Chr X          Block    206]	100.0% [Chr Y          Block    207]	100.0% [Chr MT         Block    208]
+Written 13682101 lines
+Paired 0 out of 13682101 reads
+Reference                 17085548
+  Fixes     :             10942430
+  Fixes St  :              4089491
+  Replace   :              2053627
+Sequences               6439613990
+  Positions :             10183596 
+  Stitches  :             12858653 
+  Opcode    :            571992690 
+  SeqPos    :           1763377890 
+  SeqLen    :             28203170 
+  XLen      :              4749897 
+  HSLen     :             19800180 
+  AnyLen    :            454732252 
+  OPLen     :             17270572 
+  ACGTMiss  :             55758253 
+  ACGTIns   :           3500683093 
+  ACGTUnmap :                 3744 
+Read Names               123673469
+  Index     :             10945317
+  Content   :            112728152
+  Paired    :                    0
+Flags                      3374686
+Map. Quals                 4637206
+Qualities              20291927676
+Paired End                37259743
+  Diff      :             34712739 
+  Chr       :                18491 
+  Template  :                31441 
+  Bits      :              2497072 
+Optionals                   145159
+  Tags      :                69486
+  MDZ       :                17952
+  NMi       :                    0
+  RG^       :                57721
+
+real	65m33.727s
+user	89m54.971s
+sys	4m45.189s
+-rw-r--r-- 1 jkb team117 26918516745 Oct  4 16:29 no-2ndary-aux.bam.dz
+=== Executing deez -v1 -! -c no-2ndary-aux.bam.dz -r hs37d5.fa -t 12 > /dev/null ===
+DeeZ 0x20 (v1.9-beta2-26-g92cd56b)
+Decompressing no-2ndary-aux.bam.dz to stdout ...
+File format: DZ v2.0
+Loaded reference file hs37d5.fa
+Loaded reference index hs37d5.fa.fai
+Using quality mode samcomp
+	 0.52% [Chr 1         ]	 1.03% [Chr 1         ]	 1.55% [Chr 1         ]	 2.06% [Chr 1         ]	 2.57% [Chr 1         ]	 3.08% [Chr 1         ]	 3.59% [Chr 1         ]	 4.10% [Chr 1         ]	 4.62% [Chr 1         ]	 5.13% [Chr 1         ]	 5.64% [Chr 1         ]	 6.15% [Chr 1         ]	 6.67% [Chr 1         ]	 7.18% [Chr 1         ]	 7.69% [Chr 1         ]	 7.91% [Chr 1         ]	 8.43% [Chr 2         ]	 8.94% [Chr 2         ]	 9.45% [Chr 2         ]	 9.96% [Chr 2         ]	10.48% [Chr 2         ]	10.99% [Chr 2         ]	11.50% [Chr 2         ]	12.01% [Chr 2         ]	12.53% [Chr 2         ]	13.04% [Chr 2         ]	13.55% [Chr 2         ]	14.06% [Chr 2         ]	14.57% [Chr 2         ]	15.08% [Chr 2         ]	15.59% [Chr 2         ]	16.11% [Chr 2         ]	16.51% [Chr 2         ]	17.02% [Chr 3         ]	17.53% [Chr 3         ]	18.05% [Chr 3         ]	18.56% [Chr 3         ]	19.07% [Chr 3         ]	19.58% [Chr 3         ]	20.09% [Chr 3         ]	20.60% [Chr 3         ]	21.12% [Chr 3         ]	21.63% [Chr 3         ]	22.14% [Chr 3         ]	22.65% [Chr 3         ]	23.16% [Chr 3         ]	23.53% [Chr 3         ]	24.05% [Chr 4         ]	24.56% [Chr 4         ]	25.07% [Chr 4         ]	25.59% [Chr 4         ]	26.10% [Chr 4         ]	26.61% [Chr 4         ]	27.12% [Chr 4         ]	27.63% [Chr 4         ]	28.14% [Chr 4         ]	28.65% [Chr 4         ]	29.16% [Chr 4         ]	29.67% [Chr 4         ]	30.19% [Chr 4         ]	30.38% [Chr 4         ]	30.89% [Chr 5         ]	31.40% [Chr 5         ]	31.91% [Chr 5         ]	32.43% [Chr 5         ]	32.94% [Chr 5         ]	33.45% [Chr 5         ]	33.96% [Chr 5         ]	34.47% [Chr 5         ]	34.98% [Chr 5         ]	35.50% [Chr 5         ]	36.01% [Chr 5         ]	36.52% [Chr 5         ]	36.80% [Chr 5         ]	37.31% [Chr 6         ]	37.82% [Chr 6         ]	38.34% [Chr 6         ]	38.85% [Chr 6         ]	39.36% [Chr 6         ]	39.87% [Chr 6         ]	40.38% [Chr 6         ]	40.89% [Chr 6         ]	41.40% [Chr 6         ]	41.92% [Chr 6         ]	42.43% [Chr 6         ]	42.88% [Chr 6         ]	43.40% [Chr 7         ]	43.91% [Chr 7         ]	44.42% [Chr 7         ]	44.93% [Chr 7         ]	45.45% [Chr 7         ]	45.96% [Chr 7         ]	46.47% [Chr 7         ]	46.98% [Chr 7         ]	47.49% [Chr 7         ]	48.01% [Chr 7         ]	48.36% [Chr 7         ]	48.87% [Chr 8         ]	49.39% [Chr 8         ]	49.90% [Chr 8         ]	50.41% [Chr 8         ]	50.92% [Chr 8         ]	51.44% [Chr 8         ]	51.95% [Chr 8         ]	52.46% [Chr 8         ]	52.97% [Chr 8         ]	53.48% [Chr 8         ]	53.48% [Chr 8         ]	54.00% [Chr 9         ]	54.51% [Chr 9         ]	55.02% [Chr 9         ]	55.53% [Chr 9         ]	56.05% [Chr 9         ]	56.56% [Chr 9         ]	57.07% [Chr 9         ]	57.58% [Chr 9         ]	57.71% [Chr 9         ]	58.22% [Chr 10        ]	58.74% [Chr 10        ]	59.25% [Chr 10        ]	59.76% [Chr 10        ]	60.27% [Chr 10        ]	60.79% [Chr 10        ]	61.30% [Chr 10        ]	61.81% [Chr 10        ]	62.23% [Chr 10        ]	62.75% [Chr 11        ]	63.26% [Chr 11        ]	63.77% [Chr 11        ]	64.28% [Chr 11        ]	64.80% [Chr 11        ]	65.31% [Chr 11        ]	65.82% [Chr 11        ]	66.33% [Chr 11        ]	66.77% [Chr 11        ]	67.28% [Chr 12        ]	67.79% [Chr 12        ]	68.31% [Chr 12        ]	68.82% [Chr 12        ]	69.33% [Chr 12        ]	69.84% [Chr 12        ]	70.35% [Chr 12        ]	70.86% [Chr 12        ]	71.36% [Chr 12        ]	71.87% [Chr 13        ]	72.38% [Chr 13        ]	72.89% [Chr 13        ]	73.41% [Chr 13        ]	73.92% [Chr 13        ]	74.43% [Chr 13        ]	74.82% [Chr 13        ]	75.33% [Chr 14        ]	75.84% [Chr 14        ]	76.35% [Chr 14        ]	76.86% [Chr 14        ]	77.37% [Chr 14        ]	77.89% [Chr 14        ]	77.91% [Chr 14        ]	78.42% [Chr 15        ]	78.93% [Chr 15        ]	79.45% [Chr 15        ]	79.96% [Chr 15        ]	80.47% [Chr 15        ]	80.71% [Chr 15        ]	81.23% [Chr 16        ]	81.74% [Chr 16        ]	82.25% [Chr 16        ]	82.77% [Chr 16        ]	83.28% [Chr 16        ]	83.53% [Chr 16        ]	84.05% [Chr 17        ]	84.56% [Chr 17        ]	85.08% [Chr 17        ]	85.59% [Chr 17        ]	86.05% [Chr 17        ]	86.56% [Chr 18        ]	87.07% [Chr 18        ]	87.59% [Chr 18        ]	88.10% [Chr 18        ]	88.61% [Chr 18        ]	88.72% [Chr 18        ]	89.24% [Chr 19        ]	89.75% [Chr 19        ]	90.27% [Chr 19        ]	90.37% [Chr 19        ]	90.89% [Chr 20        ]	91.40% [Chr 20        ]	91.91% [Chr 20        ]	92.35% [Chr 20        ]	92.86% [Chr 21        ]	93.37% [Chr 21        ]	93.63% [Chr 21        ]	94.14% [Chr 22        ]	94.66% [Chr 22        ]	94.70% [Chr 22        ]	95.21% [Chr X         ]	95.72% [Chr X         ]	96.23% [Chr X         ]	96.74% [Chr X         ]	97.26% [Chr X         ]	97.77% [Chr X         ]	98.28% [Chr X         ]	98.79% [Chr X         ]	99.30% [Chr X         ]	99.82% [Chr X         ]	99.92% [Chr X         ]	99.96% [Chr Y         ]	100.00% [Chr MT        ]
+Decompressed 13682101 records, 208 blocks
+
+real	52m8.296s
+user	65m51.432s
+sys	4m49.483s
+
+### Deez: no-2ndary-aux.bam -r hs37d5.fa -t 12 -q2
+=== Executing deez -v1 -! no-2ndary-aux.bam -o no-2ndary-aux.bam.dz -r hs37d5.fa -t 12 -q2 ===
+DeeZ 0x20 (v1.9-beta2-26-g92cd56b)
+File no-2ndary-aux.bam.dz already exists. Overwriting it.
+Loaded reference file hs37d5.fa
+Loaded reference index hs37d5.fa.fai
+Using quality mode arithmetic
+	  0.5% [Chr 1          Block      1]	  1.0% [Chr 1          Block      2]	  1.6% [Chr 1          Block      3]	  2.1% [Chr 1          Block      4]	  2.6% [Chr 1          Block      5]	  3.1% [Chr 1          Block      6]	  3.6% [Chr 1          Block      7]	  4.1% [Chr 1          Block      8]	  4.6% [Chr 1          Block      9]	  5.1% [Chr 1          Block     10]	  5.7% [Chr 1          Block     11]	  6.2% [Chr 1          Block     12]	  6.7% [Chr 1          Block     13]	  7.2% [Chr 1          Block     14]	  7.7% [Chr 1          Block     15]	  7.9% [Chr 1          Block     16]	  8.4% [Chr 2          Block     17]	  8.9% [Chr 2          Block     18]	  9.4% [Chr 2          Block     19]	 10.0% [Chr 2          Block     20]	 10.5% [Chr 2          Block     21]	 11.0% [Chr 2          Block     22]	 11.5% [Chr 2          Block     23]	 12.0% [Chr 2          Block     24]	 12.5% [Chr 2          Block     25]	 13.0% [Chr 2          Block     26]	 13.5% [Chr 2          Block     27]	 14.1% [Chr 2          Block     28]	 14.6% [Chr 2          Block     29]	 15.1% [Chr 2          Block     30]	 15.6% [Chr 2          Block     31]	 16.1% [Chr 2          Block     32]	 16.5% [Chr 2          Block     33]	 17.0% [Chr 3          Block     34]	 17.5% [Chr 3          Block     35]	 18.0% [Chr 3          Block     36]	 18.6% [Chr 3          Block     37]	 19.1% [Chr 3          Block     38]	 19.6% [Chr 3          Block     39]	 20.1% [Chr 3          Block     40]	 20.6% [Chr 3          Block     41]	 21.1% [Chr 3          Block     42]	 21.6% [Chr 3          Block     43]	 22.1% [Chr 3          Block     44]	 22.6% [Chr 3          Block     45]	 23.2% [Chr 3          Block     46]	 23.5% [Chr 3          Block     47]	 24.0% [Chr 4          Block     48]	 24.6% [Chr 4          Block     49]	 25.1% [Chr 4          Block     50]	 25.6% [Chr 4          Block     51]	 26.1% [Chr 4          Block     52]	 26.6% [Chr 4          Block     53]	 27.1% [Chr 4          Block     54]	 27.6% [Chr 4          Block     55]	 28.1% [Chr 4          Block     56]	 28.6% [Chr 4          Block     57]	 29.2% [Chr 4          Block     58]	 29.7% [Chr 4          Block     59]	 30.2% [Chr 4          Block     60]	 30.4% [Chr 4          Block     61]	 30.9% [Chr 5          Block     62]	 31.4% [Chr 5          Block     63]	 31.9% [Chr 5          Block     64]	 32.4% [Chr 5          Block     65]	 32.9% [Chr 5          Block     66]	 33.4% [Chr 5          Block     67]	 33.9% [Chr 5          Block     68]	 34.5% [Chr 5          Block     69]	 35.0% [Chr 5          Block     70]	 35.5% [Chr 5          Block     71]	 36.0% [Chr 5          Block     72]	 36.5% [Chr 5          Block     73]	 36.8% [Chr 5          Block     74]	 37.3% [Chr 6          Block     75]	 37.8% [Chr 6          Block     76]	 38.3% [Chr 6          Block     77]	 38.8% [Chr 6          Block     78]	 39.3% [Chr 6          Block     79]	 39.9% [Chr 6          Block     80]	 40.4% [Chr 6          Block     81]	 40.9% [Chr 6          Block     82]	 41.4% [Chr 6          Block     83]	 41.9% [Chr 6          Block     84]	 42.4% [Chr 6          Block     85]	 42.9% [Chr 6          Block     86]	 43.4% [Chr 7          Block     87]	 43.9% [Chr 7          Block     88]	 44.4% [Chr 7          Block     89]	 44.9% [Chr 7          Block     90]	 45.4% [Chr 7          Block     91]	 45.9% [Chr 7          Block     92]	 46.5% [Chr 7          Block     93]	 47.0% [Chr 7          Block     94]	 47.5% [Chr 7          Block     95]	 48.0% [Chr 7          Block     96]	 48.3% [Chr 7          Block     97]	 48.9% [Chr 8          Block     98]	 49.4% [Chr 8          Block     99]	 49.9% [Chr 8          Block    100]	 50.4% [Chr 8          Block    101]	 50.9% [Chr 8          Block    102]	 51.4% [Chr 8          Block    103]	 51.9% [Chr 8          Block    104]	 52.4% [Chr 8          Block    105]	 52.9% [Chr 8          Block    106]	 53.5% [Chr 8          Block    107]	 53.5% [Chr 8          Block    108]	 54.0% [Chr 9          Block    109]	 54.5% [Chr 9          Block    110]	 55.0% [Chr 9          Block    111]	 55.5% [Chr 9          Block    112]	 56.0% [Chr 9          Block    113]	 56.5% [Chr 9          Block    114]	 57.0% [Chr 9          Block    115]	 57.6% [Chr 9          Block    116]	 57.7% [Chr 9          Block    117]	 58.2% [Chr 10         Block    118]	 58.7% [Chr 10         Block    119]	 59.2% [Chr 10         Block    120]	 59.7% [Chr 10         Block    121]	 60.3% [Chr 10         Block    122]	 60.8% [Chr 10         Block    123]	 61.3% [Chr 10         Block    124]	 61.8% [Chr 10         Block    125]	 62.2% [Chr 10         Block    126]	 62.7% [Chr 11         Block    127]	 63.2% [Chr 11         Block    128]	 63.8% [Chr 11         Block    129]	 64.3% [Chr 11         Block    130]	 64.8% [Chr 11         Block    131]	 65.3% [Chr 11         Block    132]	 65.8% [Chr 11         Block    133]	 66.3% [Chr 11         Block    134]	 66.8% [Chr 11         Block    135]	 67.3% [Chr 12         Block    136]	 67.8% [Chr 12         Block    137]	 68.3% [Chr 12         Block    138]	 68.8% [Chr 12         Block    139]	 69.3% [Chr 12         Block    140]	 69.8% [Chr 12         Block    141]	 70.3% [Chr 12         Block    142]	 70.9% [Chr 12         Block    143]	 71.4% [Chr 12         Block    144]	 71.9% [Chr 13         Block    145]	 72.4% [Chr 13         Block    146]	 72.9% [Chr 13         Block    147]	 73.4% [Chr 13         Block    148]	 73.9% [Chr 13         Block    149]	 74.4% [Chr 13         Block    150]	 74.8% [Chr 13         Block    151]	 75.3% [Chr 14         Block    152]	 75.8% [Chr 14         Block    153]	 76.3% [Chr 14         Block    154]	 76.9% [Chr 14         Block    155]	 77.4% [Chr 14         Block    156]	 77.9% [Chr 14         Block    157]	 77.9% [Chr 14         Block    158]	 78.4% [Chr 15         Block    159]	 78.9% [Chr 15         Block    160]	 79.4% [Chr 15         Block    161]	 80.0% [Chr 15         Block    162]	 80.5% [Chr 15         Block    163]	 80.7% [Chr 15         Block    164]	 81.2% [Chr 16         Block    165]	 81.7% [Chr 16         Block    166]	 82.2% [Chr 16         Block    167]	 82.8% [Chr 16         Block    168]	 83.3% [Chr 16         Block    169]	 83.5% [Chr 16         Block    170]	 84.0% [Chr 17         Block    171]	 84.6% [Chr 17         Block    172]	 85.1% [Chr 17         Block    173]	 85.6% [Chr 17         Block    174]	 86.1% [Chr 17         Block    175]	 86.6% [Chr 18         Block    176]	 87.1% [Chr 18         Block    177]	 87.6% [Chr 18         Block    178]	 88.1% [Chr 18         Block    179]	 88.6% [Chr 18         Block    180]	 88.7% [Chr 18         Block    181]	 89.2% [Chr 19         Block    182]	 89.8% [Chr 19         Block    183]	 90.3% [Chr 19         Block    184]	 90.4% [Chr 19         Block    185]	 90.9% [Chr 20         Block    186]	 91.4% [Chr 20         Block    187]	 91.9% [Chr 20         Block    188]	 92.4% [Chr 20         Block    189]	 92.9% [Chr 21         Block    190]	 93.4% [Chr 21         Block    191]	 93.6% [Chr 21         Block    192]	 94.2% [Chr 22         Block    193]	 94.7% [Chr 22         Block    194]	 94.7% [Chr 22         Block    195]	 95.2% [Chr X          Block    196]	 95.7% [Chr X          Block    197]	 96.2% [Chr X          Block    198]	 96.8% [Chr X          Block    199]	 97.3% [Chr X          Block    200]	 97.8% [Chr X          Block    201]	 98.3% [Chr X          Block    202]	 98.8% [Chr X          Block    203]	 99.3% [Chr X          Block    204]	 99.8% [Chr X          Block    205]	 99.9% [Chr X          Block    206]	100.0% [Chr Y          Block    207]	100.0% [Chr MT         Block    208]
+Written 13682101 lines
+Paired 0 out of 13682101 reads
+Reference                 17085548
+  Fixes     :             10942430
+  Fixes St  :              4089491
+  Replace   :              2053627
+Sequences               6439613990
+  Positions :             10183596 
+  Stitches  :             12858653 
+  Opcode    :            571992690 
+  SeqPos    :           1763377890 
+  SeqLen    :             28203170 
+  XLen      :              4749897 
+  HSLen     :             19800180 
+  AnyLen    :            454732252 
+  OPLen     :             17270572 
+  ACGTMiss  :             55758253 
+  ACGTIns   :           3500683093 
+  ACGTUnmap :                 3744 
+Read Names               123673469
+  Index     :             10945317
+  Content   :            112728152
+  Paired    :                    0
+Flags                      3374686
+Map. Quals                 4637206
+Qualities              20299874332
+Paired End                37259743
+  Diff      :             34712739 
+  Chr       :                18491 
+  Template  :                31441 
+  Bits      :              2497072 
+Optionals                   145159
+  Tags      :                69486
+  MDZ       :                17952
+  NMi       :                    0
+  RG^       :                57721
+
+real	59m30.845s
+user	83m47.283s
+sys	4m45.798s
+-rw-r--r-- 1 jkb team117 26952068252 Oct  4 18:20 no-2ndary-aux.bam.dz
+=== Executing deez -v1 -! -c no-2ndary-aux.bam.dz -r hs37d5.fa -t 12 > /dev/null ===
+DeeZ 0x20 (v1.9-beta2-26-g92cd56b)
+Decompressing no-2ndary-aux.bam.dz to stdout ...
+File format: DZ v2.0
+Loaded reference file hs37d5.fa
+Loaded reference index hs37d5.fa.fai
+Using quality mode arithmetic
+	 0.52% [Chr 1         ]	 1.03% [Chr 1         ]	 1.54% [Chr 1         ]	 2.05% [Chr 1         ]	 2.56% [Chr 1         ]	 3.08% [Chr 1         ]	 3.59% [Chr 1         ]	 4.10% [Chr 1         ]	 4.61% [Chr 1         ]	 5.12% [Chr 1         ]	 5.63% [Chr 1         ]	 6.15% [Chr 1         ]	 6.66% [Chr 1         ]	 7.17% [Chr 1         ]	 7.68% [Chr 1         ]	 7.90% [Chr 1         ]	 8.41% [Chr 2         ]	 8.93% [Chr 2         ]	 9.44% [Chr 2         ]	 9.95% [Chr 2         ]	10.46% [Chr 2         ]	10.97% [Chr 2         ]	11.49% [Chr 2         ]	12.00% [Chr 2         ]	12.51% [Chr 2         ]	13.02% [Chr 2         ]	13.53% [Chr 2         ]	14.04% [Chr 2         ]	14.55% [Chr 2         ]	15.06% [Chr 2         ]	15.58% [Chr 2         ]	16.09% [Chr 2         ]	16.49% [Chr 2         ]	17.00% [Chr 3         ]	17.51% [Chr 3         ]	18.02% [Chr 3         ]	18.54% [Chr 3         ]	19.05% [Chr 3         ]	19.56% [Chr 3         ]	20.07% [Chr 3         ]	20.58% [Chr 3         ]	21.09% [Chr 3         ]	21.60% [Chr 3         ]	22.12% [Chr 3         ]	22.63% [Chr 3         ]	23.14% [Chr 3         ]	23.51% [Chr 3         ]	24.02% [Chr 4         ]	24.53% [Chr 4         ]	25.04% [Chr 4         ]	25.56% [Chr 4         ]	26.07% [Chr 4         ]	26.58% [Chr 4         ]	27.09% [Chr 4         ]	27.60% [Chr 4         ]	28.11% [Chr 4         ]	28.62% [Chr 4         ]	29.13% [Chr 4         ]	29.64% [Chr 4         ]	30.15% [Chr 4         ]	30.35% [Chr 4         ]	30.86% [Chr 5         ]	31.37% [Chr 5         ]	31.88% [Chr 5         ]	32.39% [Chr 5         ]	32.90% [Chr 5         ]	33.41% [Chr 5         ]	33.92% [Chr 5         ]	34.44% [Chr 5         ]	34.95% [Chr 5         ]	35.46% [Chr 5         ]	35.97% [Chr 5         ]	36.48% [Chr 5         ]	36.76% [Chr 5         ]	37.27% [Chr 6         ]	37.78% [Chr 6         ]	38.30% [Chr 6         ]	38.81% [Chr 6         ]	39.32% [Chr 6         ]	39.83% [Chr 6         ]	40.34% [Chr 6         ]	40.85% [Chr 6         ]	41.36% [Chr 6         ]	41.87% [Chr 6         ]	42.38% [Chr 6         ]	42.84% [Chr 6         ]	43.35% [Chr 7         ]	43.87% [Chr 7         ]	44.38% [Chr 7         ]	44.89% [Chr 7         ]	45.40% [Chr 7         ]	45.91% [Chr 7         ]	46.42% [Chr 7         ]	46.93% [Chr 7         ]	47.45% [Chr 7         ]	47.96% [Chr 7         ]	48.31% [Chr 7         ]	48.82% [Chr 8         ]	49.34% [Chr 8         ]	49.85% [Chr 8         ]	50.36% [Chr 8         ]	50.87% [Chr 8         ]	51.38% [Chr 8         ]	51.90% [Chr 8         ]	52.41% [Chr 8         ]	52.92% [Chr 8         ]	53.43% [Chr 8         ]	53.43% [Chr 8         ]	53.94% [Chr 9         ]	54.45% [Chr 9         ]	54.97% [Chr 9         ]	55.48% [Chr 9         ]	55.99% [Chr 9         ]	56.50% [Chr 9         ]	57.01% [Chr 9         ]	57.53% [Chr 9         ]	57.65% [Chr 9         ]	58.17% [Chr 10        ]	58.68% [Chr 10        ]	59.19% [Chr 10        ]	59.70% [Chr 10        ]	60.21% [Chr 10        ]	60.73% [Chr 10        ]	61.24% [Chr 10        ]	61.75% [Chr 10        ]	62.17% [Chr 10        ]	62.69% [Chr 11        ]	63.20% [Chr 11        ]	63.71% [Chr 11        ]	64.22% [Chr 11        ]	64.73% [Chr 11        ]	65.25% [Chr 11        ]	65.76% [Chr 11        ]	66.27% [Chr 11        ]	66.70% [Chr 11        ]	67.22% [Chr 12        ]	67.73% [Chr 12        ]	68.24% [Chr 12        ]	68.75% [Chr 12        ]	69.26% [Chr 12        ]	69.77% [Chr 12        ]	70.28% [Chr 12        ]	70.80% [Chr 12        ]	71.29% [Chr 12        ]	71.80% [Chr 13        ]	72.31% [Chr 13        ]	72.82% [Chr 13        ]	73.34% [Chr 13        ]	73.85% [Chr 13        ]	74.36% [Chr 13        ]	74.74% [Chr 13        ]	75.26% [Chr 14        ]	75.77% [Chr 14        ]	76.28% [Chr 14        ]	76.79% [Chr 14        ]	77.30% [Chr 14        ]	77.81% [Chr 14        ]	77.83% [Chr 14        ]	78.35% [Chr 15        ]	78.86% [Chr 15        ]	79.37% [Chr 15        ]	79.88% [Chr 15        ]	80.39% [Chr 15        ]	80.64% [Chr 15        ]	81.15% [Chr 16        ]	81.66% [Chr 16        ]	82.18% [Chr 16        ]	82.69% [Chr 16        ]	83.20% [Chr 16        ]	83.45% [Chr 16        ]	83.97% [Chr 17        ]	84.48% [Chr 17        ]	84.99% [Chr 17        ]	85.51% [Chr 17        ]	85.97% [Chr 17        ]	86.48% [Chr 18        ]	86.99% [Chr 18        ]	87.50% [Chr 18        ]	88.01% [Chr 18        ]	88.53% [Chr 18        ]	88.64% [Chr 18        ]	89.15% [Chr 19        ]	89.67% [Chr 19        ]	90.18% [Chr 19        ]	90.29% [Chr 19        ]	90.80% [Chr 20        ]	91.31% [Chr 20        ]	91.82% [Chr 20        ]	92.26% [Chr 20        ]	92.77% [Chr 21        ]	93.28% [Chr 21        ]	93.54% [Chr 21        ]	94.05% [Chr 22        ]	94.57% [Chr 22        ]	94.60% [Chr 22        ]	95.12% [Chr X         ]	95.63% [Chr X         ]	96.14% [Chr X         ]	96.65% [Chr X         ]	97.16% [Chr X         ]	97.67% [Chr X         ]	98.19% [Chr X         ]	98.70% [Chr X         ]	99.21% [Chr X         ]	99.72% [Chr X         ]	99.83% [Chr X         ]	99.86% [Chr Y         ]	99.90% [Chr MT        ]
+Decompressed 13682101 records, 208 blocks
+
+real	44m30.204s
+user	58m31.472s
+sys	4m36.041s
+
+### Genozip: no-2ndary-aux.bam -r hs37d5 -@ 12 -fast
+=== Executing genozip -f no-2ndary-aux.bam -o no-2ndary-aux.bam.genozip -e hs37d5.ref.genozip -@ 12 --fast ===
+genozip no-2ndary-aux.bam : 0%
+Done (12 minutes 49 seconds, BAM compression ratio: 1.5)
+
+
+real	12m50.121s
+user	147m21.360s
+sys	2m21.944s
+-rw-r--r-- 1 jkb team117 29569274634 Oct  4 19:18 no-2ndary-aux.bam.genozip
+
+
+BAM file: no-2ndary-aux.bam
+Reference: hs37d5.ref.genozip
+Alignment lines: 13,682,101   Dictionaries: 107   Vblocks: 5006 x 16 MB  Sections: 168497
+Genozip version: 12.0.34 github
+Date compressed: 2021-10-04 19:18:18 BST
+License v12.0.33 granted to: Wellcome Sanger Institute accepted by: James Bonfield <jkb@sanger.ac.uk> on 2021-09-06 10:20:38 BST from IP=193.62.205.61
+
+Sections (sorted by % of genozip file):
+NAME                   GENOZIP      %      TXT       %   RATIO
+QUAL                   20.5 GB  74.4%   36.3 GB  46.6%    1.8X
+SEQ                     3.5 GB  12.8%   18.2 GB  23.4%    5.2X
+CIGAR                   2.0 GB   7.2%   18.3 GB  23.5%    9.2X
+MD:Z                    1.3 GB   4.8%    3.5 GB   4.4%    2.6X
+QNAME                 143.9 MB   0.5% 1020.6 MB   1.3%    7.1X
+POS                    20.1 MB   0.1%   52.2 MB   0.1%    2.6X
+NM:i                   18.0 MB   0.1%   17.7 MB   0.0%    1.0X
+MAPQ                    5.7 MB   0.0%   13.0 MB   0.0%    2.3X
+Other                   3.4 MB   0.0%  169.6 MB   0.2%   49.6X
+FLAG                    3.1 MB   0.0%   26.1 MB   0.0%    8.4X
+BGZF                    2.7 MB   0.0%         -   0.0%    0.0X
+PNEXT                 652.0 KB   0.0%   52.2 MB   0.1%   82.0X
+VB_HEADER             371.5 KB   0.0%         -   0.0%    0.0X
+RNEXT                 215.4 KB   0.0%   52.2 MB   0.1%  248.2X
+RNAME                 197.2 KB   0.0%   52.2 MB   0.1%  271.0X
+TXT_HEADER              5.0 KB   0.0%   21.1 KB   0.0%    4.3X
+TLEN                      83 B   0.0%   52.2 MB   0.1% 659378.4X
+RG:Z                      56 B   0.0%  208.8 MB   0.3% 3909171.7X
+BAM_BIN                   43 B   0.0%   26.1 MB   0.0% 636376.8X
+GENOZIP vs BGZF        27.5 GB 100.0%   42.1 GB 100.0%    1.5X
+GENOZIP vs TXT         27.5 GB 100.0%   78.0 GB 100.0%    2.8X
+
+=== Executing genocat -f no-2ndary-aux.bam.genozip -o /dev/null -z0 -e hs37d5.ref.genozip -@ 12 ===
+genocat no-2ndary-aux.bam.genozip : 
+Done (7 minutes 23 seconds)
+
+
+real	7m24.413s
+user	82m10.806s
+sys	0m36.164s
+
+### Genozip: no-2ndary-aux.bam -r hs37d5 -@ 12 -normal
+=== Executing genozip -f no-2ndary-aux.bam -o no-2ndary-aux.bam.genozip -e hs37d5.ref.genozip -@ 12 ===
+genozip no-2ndary-aux.bam : 0%
+Done (31 minutes 30 seconds, BAM compression ratio: 1.6)
+
+
+real	31m36.728s
+user	364m7.990s
+sys	4m59.860s
+-rw-r--r-- 1 jkb team117 27957030849 Oct  4 19:57 no-2ndary-aux.bam.genozip
+
+
+BAM file: no-2ndary-aux.bam
+Reference: hs37d5.ref.genozip
+Alignment lines: 13,682,101   Dictionaries: 107   Vblocks: 2353 x 34 MB  Sections: 80689
+Genozip version: 12.0.34 github
+Date compressed: 2021-10-04 19:57:20 BST
+License v12.0.33 granted to: Wellcome Sanger Institute accepted by: James Bonfield <jkb@sanger.ac.uk> on 2021-09-06 10:20:38 BST from IP=193.62.205.61
+
+Sections (sorted by % of genozip file):
+NAME                   GENOZIP      %      TXT       %   RATIO
+QUAL                   19.2 GB  73.9%   36.3 GB  46.6%    1.9X
+SEQ                     3.5 GB  13.5%   18.2 GB  23.4%    5.2X
+CIGAR                   2.0 GB   7.5%   18.3 GB  23.5%    9.4X
+MD:Z                    1.2 GB   4.5%    3.5 GB   4.4%    2.9X
+QNAME                 126.2 MB   0.5% 1020.6 MB   1.3%    8.1X
+NM:i                   16.8 MB   0.1%   17.7 MB   0.0%    1.1X
+POS                    15.9 MB   0.1%   52.2 MB   0.1%    3.3X
+MAPQ                    4.6 MB   0.0%   13.0 MB   0.0%    2.9X
+FLAG                    2.4 MB   0.0%   26.1 MB   0.0%   10.9X
+BGZF                    2.4 MB   0.0%         -   0.0%    0.0X
+Other                   2.2 MB   0.0%  169.6 MB   0.2%   76.1X
+PNEXT                 316.8 KB   0.0%   52.2 MB   0.1%  168.7X
+VB_HEADER             174.6 KB   0.0%         -   0.0%    0.0X
+RNEXT                 101.4 KB   0.0%   52.2 MB   0.1%  527.3X
+RNAME                  94.0 KB   0.0%   52.2 MB   0.1%  568.5X
+TXT_HEADER              5.0 KB   0.0%   21.1 KB   0.0%    4.3X
+TLEN                      83 B   0.0%   52.2 MB   0.1% 659378.4X
+RG:Z                      56 B   0.0%  208.8 MB   0.3% 3909171.7X
+BAM_BIN                   43 B   0.0%   26.1 MB   0.0% 636376.8X
+GENOZIP vs BGZF        26.0 GB 100.0%   42.1 GB 100.0%    1.6X
+GENOZIP vs TXT         26.0 GB 100.0%   78.0 GB 100.0%    3.0X
+
+=== Executing genocat -f no-2ndary-aux.bam.genozip -o /dev/null -z0 -e hs37d5.ref.genozip -@ 12 ===
+genocat no-2ndary-aux.bam.genozip : 
+Done (20 minutes 30 seconds)
+
+
+real	20m31.581s
+user	238m1.878s
+sys	1m54.847s
